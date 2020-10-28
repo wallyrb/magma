@@ -34,7 +34,6 @@ resource "null_resource" orc8r_seed_secrets {
 
 locals {
   orc8r_cert_names = [
-    "rootCA.key",
     "rootCA.pem",
     "controller.key",
     "controller.crt",
